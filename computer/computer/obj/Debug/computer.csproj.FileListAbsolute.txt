@@ -1,9 +1,0 @@
-D:\C# Program\computer\computer\bin\Debug\computer.exe.config
-D:\C# Program\computer\computer\bin\Debug\computer.exe
-D:\C# Program\computer\computer\bin\Debug\computer.pdb
-D:\C# Program\computer\computer\obj\Debug\computer.csprojResolveAssemblyReference.cache
-D:\C# Program\computer\computer\obj\Debug\computer.Form1.resources
-D:\C# Program\computer\computer\obj\Debug\computer.Properties.Resources.resources
-D:\C# Program\computer\computer\obj\Debug\computer.csproj.GenerateResource.Cache
-D:\C# Program\computer\computer\obj\Debug\computer.exe
-D:\C# Program\computer\computer\obj\Debug\computer.pdb
