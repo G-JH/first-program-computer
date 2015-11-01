@@ -6,4 +6,3 @@ D:\C# Program\computer\computer\obj\Debug\computer.Properties.Resources.resource
 D:\C# Program\computer\computer\obj\Debug\computer.csproj.GenerateResource.Cache
 D:\C# Program\computer\computer\obj\Debug\computer.exe
 D:\C# Program\computer\computer\obj\Debug\computer.pdb
-D:\C# Program\computer\computer\obj\Debug\computer.csprojResolveAssemblyReference.cache

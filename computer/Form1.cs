@@ -192,7 +192,6 @@ namespace computer
                 if (a == 0)
                 {
                     FirstNumber = Convert.ToDouble(Output.Text);
-                    Output.Text = "0";
                     a = 2;
                     leap = true;
                     result = false;
@@ -235,7 +234,6 @@ namespace computer
                         FirstNumber = Convert.ToDouble(Output.Text);
                         leap = true;
                         a = 2;
-                        Output.Text = "0";
                         result = false;
                     }
                 }
@@ -251,7 +249,6 @@ namespace computer
                 if (a == 0)
                 {
                     FirstNumber = Convert.ToDouble(Output.Text);
-                    Output.Text = "0";
                     a = 3;
                     leap = true;
                     result = false;
@@ -294,7 +291,6 @@ namespace computer
                         FirstNumber = Convert.ToDouble(Output.Text);
                         leap = true;
                         a = 3;
-                        Output.Text = "0";
                         result = false;
                     }
                 }
@@ -310,7 +306,6 @@ namespace computer
                 if (a == 0)
                 {
                     FirstNumber = Convert.ToDouble(Output.Text);
-                    Output.Text = "0";
                     a = 4;
                     leap = true;
                     result = false;
@@ -353,7 +348,6 @@ namespace computer
                         FirstNumber = Convert.ToDouble(Output.Text);
                         leap = true;
                         a = 4;
-                        Output.Text = "0";
                         result = false;
                     }
                 }
@@ -369,7 +363,6 @@ namespace computer
                 if (a == 0)
                 {
                     FirstNumber = Convert.ToDouble(Output.Text);
-                    Output.Text = "0";
                     a = 1;
                     leap = true;
                     result = false;
@@ -410,7 +403,6 @@ namespace computer
                             FirstNumber = Convert.ToDouble(Output.Text);
                             leap = true;
                             a = 1;
-                            Output.Text = "0";
                             result = false;
                         }
                         a = 1;
