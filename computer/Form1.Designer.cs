@@ -172,7 +172,7 @@
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(90, 60);
             this.Multiply.TabIndex = 11;
-            this.Multiply.Text = "×";
+            this.Multiply.Text = "*";
             this.Multiply.UseVisualStyleBackColor = true;
             this.Multiply.Click += new System.EventHandler(this.Multiply_Click);
             // 
@@ -193,7 +193,7 @@
             this.BackSpace.Name = "BackSpace";
             this.BackSpace.Size = new System.Drawing.Size(90, 60);
             this.BackSpace.TabIndex = 13;
-            this.BackSpace.Text = "⇦";
+            this.BackSpace.Text = "←";
             this.BackSpace.UseVisualStyleBackColor = true;
             this.BackSpace.Click += new System.EventHandler(this.BackSpace_Click);
             // 

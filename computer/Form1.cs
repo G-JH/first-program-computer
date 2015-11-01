@@ -23,7 +23,11 @@ namespace computer
                 if (result == false)
                 {
                     if (Output.Text.Length == 1) Output.Text = "0";
-                    else Output.Text = Output.Text.Substring(0, Output.Text.Length - 1);
+                    else
+                    {
+                        Output.Text = Output.Text.Substring(0, Output.Text.Length - 1);
+                        if (Output.Text == "-") Output.Text = "0";
+                    }
                 }
             }
         }
@@ -40,13 +44,7 @@ namespace computer
                 if (dou == false)
                 {
                     FirstNumber = Convert.ToDouble(Output.Text);
-                    if (FirstNumber != 0) Output.Text = (-FirstNumber).ToString();
-                    else
-                    {
-                        Output.Text = "-";
-                        Output.Text += (FirstNumber).ToString();
-                        Output.Text += ".";
-                    }
+                    Output.Text = (-FirstNumber).ToString();
                 }
                 else
                 {
@@ -58,9 +56,8 @@ namespace computer
                     }
                     else
                     {
-                        Output.Text = "-";
-                        Output.Text += (FirstNumber).ToString();
-                        Output.Text += ".";
+                        if (Output.Text == "-0.") Output.Text = "0.";
+                        else if(Output .Text =="0.") Output.Text = "-0.";
                     }
                 }
             }
