@@ -182,7 +182,7 @@
             this.Devide.Name = "Devide";
             this.Devide.Size = new System.Drawing.Size(90, 60);
             this.Devide.TabIndex = 12;
-            this.Devide.Text = "÷";
+            this.Devide.Text = "/";
             this.Devide.UseVisualStyleBackColor = true;
             this.Devide.Click += new System.EventHandler(this.Devide_Click);
             // 
